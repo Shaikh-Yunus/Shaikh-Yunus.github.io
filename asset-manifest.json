@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/FreenzaTechWeb/static/css/main.7de5203b.css",
-    "main.js": "/FreenzaTechWeb/static/js/main.6a8f047f.js",
-    "static/js/787.5480e000.chunk.js": "/FreenzaTechWeb/static/js/787.5480e000.chunk.js",
-    "index.html": "/FreenzaTechWeb/index.html",
-    "main.7de5203b.css.map": "/FreenzaTechWeb/static/css/main.7de5203b.css.map",
-    "main.6a8f047f.js.map": "/FreenzaTechWeb/static/js/main.6a8f047f.js.map",
-    "787.5480e000.chunk.js.map": "/FreenzaTechWeb/static/js/787.5480e000.chunk.js.map"
+    "main.css": "/static/css/main.7de5203b.css",
+    "main.js": "/static/js/main.2cbda010.js",
+    "static/js/787.5480e000.chunk.js": "/static/js/787.5480e000.chunk.js",
+    "index.html": "/index.html",
+    "main.7de5203b.css.map": "/static/css/main.7de5203b.css.map",
+    "main.2cbda010.js.map": "/static/js/main.2cbda010.js.map",
+    "787.5480e000.chunk.js.map": "/static/js/787.5480e000.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7de5203b.css",
-    "static/js/main.6a8f047f.js"
+    "static/js/main.2cbda010.js"
   ]
 }
