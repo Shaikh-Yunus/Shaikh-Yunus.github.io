@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreenzaTech | Home</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Quantico&display=swap");
+
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    canvas {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+
+    .textcontainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      background-color: transparent;
+      animation: ChangeBG 6s ease-in-out forwards;
+      overflow: hidden;
+    }
+    .textanimated-text {
+      font-family: "Quantico", sans-serif;
+      /* font-size: 18px; */
+      font-size: 2vw;
+      color: #fff;
+
+      animation: scaleUpAndChangeColor 6s ease-in-out forwards;
+    }
+
+    @keyframes scaleUpAndChangeColor {
+      0%,
+      10% {
+        transform: scale(1);
+        opacity: 1;
+        background-color: #000;
+      }
+      60% {
+        transform: scale(5);
+      }
+      100% {
+        transform: scale(8);
+      }
+    }
+
+    @keyframes ChangeBG {
+      0%,
+      10% {
+        background-color: transparent;
+      }
+      99% {
+        background-color: transparent;
+      }
+      100% {
+        background-color: #fff;
+      }
+    }
+  </style>
+  <body>
+    <h5
+      style="
+        color: white;
+        z-index: 1;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 100%;
+        width: 100%;
+        transform: translateY(-50%);
+      "
+    >
+      <div class="textcontainer">
+        <p class="textanimated-text">FreenzaTech</p>
+      </div>
+    </h5>
+    <canvas id="canvas"> </canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.1.0/gl-matrix.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
